@@ -28,8 +28,14 @@ dateE1.innerHTML = days[day] + ' , ' +  date+ ' ' + months[month]
 
 }, 1000);
 
+getWeatherData()
 function getWeatherData ( {
     navigator.geolocation.getCurrentPosition((success) => {
         console.log(success);
-    })
+
+        let {latitude, longitude } = success.coords;
+
+        fetch(|'https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}'
+        )
+            })
 })
