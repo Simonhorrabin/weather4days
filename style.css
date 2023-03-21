@@ -120,6 +120,9 @@ input[type="text"] {
 .future-forecast .today .temp{
     font-size: 18px;
     padding-top: 15px;
+    border: #3c3c44;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 .future-forecast .weather-forecast {
