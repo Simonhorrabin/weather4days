@@ -4,19 +4,19 @@ h1 {
     color: aliceblue;
     text-align: right;
     background-color: blue;
+    background-image: url(./assets/skies.img.JPG);
 }
 
 h2 {
     font-weight: bold;
-
+}
 body {
-    background-image: url(C:\Users\simon\weather4days\assets\image_123986672.JPG);
+    background-image: url(./assets/skies.img.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
     
-}
 input[type="text"] {
     padding: 10px;
     border: none;
