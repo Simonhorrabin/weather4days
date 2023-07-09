@@ -13,15 +13,13 @@
 
     <form>
         <h2>Search for a city</h2>
-            <input type="text" placeholder="Search...">
-            <button type = "submit">Search</button>
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
     </form>
 
     <div class="container">
         <div class="current-info">
             <div class="date-container">
-        
-            
                 <div class="time" id="item">
                     12:30 <span id="am-pm">PM</span>
                 </div>
@@ -30,79 +28,78 @@
                 </div>
 
                 <div class="others" id="current-weather-items">
-                
                     <div class="weather-items">
                         <p>Humidity</p>
-                        <p>95.2%</p>
+                        <p id="current-humidity">95.2%</p>
                     </div>
                     <div class="weather-items">
-                        <p>Pressure</p>
+                        <p id="current-temperature">temperature</p>
                         <p>121</p>
                     </div>
                     <div class="weather-items">
-                        <p>Wind Speed</p>
+                        <p id="current-wind-speed">Wind Speed</p>
                         <p>100</p>
                     </div>
-               
-                </div>    
+                </div>
             </div>
 
             <div class="place-container">
                 <div class="time-zone" id="time-zone">Eastern</div>
-                <div id="country" class="country">United States</div>                    
+                <div id="country" class="country">United States</div>
             </div>
-            
+
             <div class="future-forecast">
-               <div class="today" id="current-temp">
-                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                <div class="other">
-                    <div class="day">Mon</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 32.2&#176; F</div>
-                </div>
-                
-            </div> 
-
-               <div class="weather-forecast" id="weather-forecast">
-                  <div class="weather-forecast-item">
-                     <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                     <div class="day">Tue</div>
-                     <div class="temp">Night - 25.6&#176; F</div>
-                     <div class="temp">Day - 25.6&#176; F</div>
-                  </div>
-                  <div class="weather-forecast-item">
+                <div class="today" id="current-temperature">
                     <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                    <div class="day">Wed</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 25.6&#176; F</div>
-                 </div>
-                 <div class="weather-forecast-item">
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                    <div class="day">Thur</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 25.6&#176; F</div>
-                 </div>
-                 <div class="weather-forecast-item">
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                    <div class="day">Fri</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 25.6&#176; F</div>
-                 </div>
-                 <div class="weather-forecast-item">
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                    <div class="day">Sat</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 25.6&#176; F</div>
-                 </div>
-                 <div class="weather-forecast-item">
-                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
-                    <div class="day">Sun</div>
-                    <div class="temp">Night - 25.6&#176; F</div>
-                    <div class="temp">Day - 25.6&#176; F</div>
-                 </div>
+                    <div class="other">
+                        <div class="day">Mon</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 32.2&#176; F</div>
+                    </div>
                 </div>
 
+                <div class="weather-forecast" id="weather-forecast">
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Tue</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Wed</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Thur</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Fri</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Sat</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                    <div class="weather-forecast-item">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                        <div class="day">Sun</div>
+                        <div class="temp">Night - 25.6&#176; F</div>
+                        <div class="temp">Day - 25.6&#176; F</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
+<script src="./script.js"></script>
+</html>
