@@ -28,6 +28,6 @@ To run the weather app locally, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/Simonhorrabin/weather4days
 
    open up the localhost
